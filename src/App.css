@@ -1,0 +1,42 @@
+body{
+  background-color: #ddd;
+  overflow-x: hidden;
+}
+#body{
+  margin: 0 40px;
+  background-color: #fff;
+}
+.footer ul li {
+ list-style: none;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2wm;
+}
+.footer ul li a:hover{
+  text-decoration: underline;
+  color: rgb(82, 82, 174);
+  font-size: 1.2wm;
+}
+.footer {
+  border-top: 0.5px solid #ddd;
+  border-bottom: 0.5px solid #ddd;
+}
+.justify span {
+  font-size: 1.4em;
+}
+.justify p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.4;
+  margin: 20px 0;
+}
+.justify span a{
+  text-decoration: none;
+  color: #000;
+}
+.justify span a:hover{
+  text-decoration: underline;
+  color: blueviolet;
+}
