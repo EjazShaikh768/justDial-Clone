@@ -1,10 +1,24 @@
+hr {
+  opacity: 0.1;
+}
 body{
   background-color: #ddd;
   overflow-x: hidden;
 }
 #body{
-  margin: 0 40px;
+  margin: 0 39.5px;
   background-color: #fff;
+}
+.pad {
+  padding: 0 30px;
+}
+h3{
+  font-weight: 650;
+}
+.navbar img {
+  width: 100px;
+  height: 30px;
+  margin-left: 20px;
 }
 .footer ul li {
  list-style: none;
@@ -12,31 +26,223 @@ body{
 .footer ul li a {
   text-decoration: none;
   color: #000;
-  font-size: 1.2wm;
+  font-size: small;
 }
 .footer ul li a:hover{
   text-decoration: underline;
   color: rgb(82, 82, 174);
-  font-size: 1.2wm;
+  font-size: small;
 }
-.footer {
-  border-top: 0.5px solid #ddd;
-  border-bottom: 0.5px solid #ddd;
-}
+
 .justify span {
-  font-size: 1.4em;
+  font-size: large;
+  color: #000;
 }
 .justify p {
   text-align: justify;
   text-justify: inter-word;
-  line-height: 1.4;
+  line-height: 1.1;
   margin: 20px 0;
+  font-size: small;
 }
 .justify span a{
   text-decoration: none;
   color: #000;
+  font-size: 1em;
+
 }
 .justify span a:hover{
   text-decoration: underline;
   color: blueviolet;
+}
+.justify{
+  margin-top: 40px;
+}
+p{
+  font-size: small;
+}
+h5{
+  font-weight: 550;
+}
+.justify p a {
+  font-size: small;
+  text-decoration: none;
+  color: #000;
+  margin: 0 5px;
+}
+.justify p a:hover {
+  font-size: small;
+  text-decoration: underline;
+  color: blueviolet;
+  margin: 0 5px;
+}
+.justify h5{
+  font-weight: 600;
+}
+.paragraph{
+  margin-top: 10px;
+}
+.text-end{
+  justify-content: end;
+}
+.store-images img{
+  width: 100px;
+  height: 30px;
+  text-align: end;
+  margin: 35px 0 35px 20px;
+}
+.social-icons span{
+margin: 0 30px 0 0;
+font-weight: 600;
+}
+.social-icons img {
+  width: 32px;
+  margin: 35px 0 35px 8px;
+}
+.links p a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.0em;
+  margin-left:5px ;
+  text-align: left;
+  text-justify: distribute-all-lines;
+}
+.links p a:hover{
+  text-decoration: underline;
+  color: blueviolet;
+}
+.brandslide {
+  position: relative;
+}
+.brandslide img {
+  width: 100%;
+  box-shadow: 2px 2px 0 0 #ddd;
+  border-radius: 15px;
+}
+#brandslide .btn{
+  z-index: 2;
+  position: absolute;
+  top: 43%;
+  background-color: #ddd;
+  border-radius: 0 10px 10px 0;
+}
+#brandslide .btn1{
+  z-index: 2;
+  top: 43%;
+  right: 10px;
+  background-color: #ddd;
+  border-radius:  10px 0  0 10px;
+}
+#RecentActivity .col {
+  width: 31%;
+  overflow: hidden; 
+}
+.RecentActivity{
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  margin: 10px 10px;
+}
+.RecentActivity img {
+  width: 100%;
+  height: 200px;
+  transition: transform 1s ease;
+}
+.imgbox {
+  overflow: hidden; 
+  width: 100%;
+}
+.RecentActivity img:hover{
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.RecentActivity h4,h5{
+  padding: 15px 0;
+}
+#RecentActivity .col-6 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#RecentActivity .col-6 div{
+  margin-left: 15px;
+}
+#RecentActivity .col-6 p {
+  font-size: 0.7em;
+}
+#RecentActivity .row .fa-solid {
+  color: greenyellow;
+}
+.RecentActivity .startbox{
+  background-color: #ddd;
+  height: max-content;
+  padding-bottom: 9.8px;
+  border-radius: 8px;
+}
+.RecentActivity .startbox img{
+  padding: 15px 0;
+  width: 100%;
+  height: 150px;
+}
+.RecentActivity .startbox  .fa-solid{
+  color: green;
+  font-size: 1.2em;
+}
+.RecentActivity .startbox span .fa-regular{
+  font-size: 1.2em;
+  border: 1px solid #ddd;
+  padding: 5px;
+  background-color: #fff;
+  margin: 0 7px;
+}
+.RecentActivity .startbox span .fa-regular:hover{
+  color: #fff;
+  background-color: green;
+
+}
+.RecentActivity .startbox a {
+  text-decoration: none;
+}
+.serviceIcon{
+  border: 1px solid #ddd;
+  border-radius: 20px 20px 0 0;
+}
+.serviceIcon .msgbox a{
+ text-decoration: none;
+ font-size: 1.2em;
+}
+.serviceIcon .iconbox {
+  width: 12.5%;
+  height: 130px;
+  padding: 10px;
+}
+.serviceIcon .iconbox a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 640;
+}
+.serviceIcon .imgbox{
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+.serviceIcon1{
+  border: 1px solid #ddd;
+  border-radius: 0 0 20px 20px ;
+}
+.serviceIcon1 .msgbox a{
+ text-decoration: none;
+ font-size: 1.1em;
+}
+.serviceIcon1 .iconbox {
+  width: 12.5%;
+  height: 130px;
+  padding: 10px;
+}
+.serviceIcon1 .iconbox a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 640;
+}
+.serviceIcon1 .imgbox{
+  border: 1px solid #ddd;
+  border-radius: 15px;
 }

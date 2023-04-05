@@ -3,10 +3,10 @@ import React from 'react'
 function Footer() {
     return (
         <div>
-            <section id='footer'>
+            <section id='footer' className='pad'>
                 <div className='container-fluid'>
                     <div className='row footer py-5'>
-                        <div className='col-sm-12 col-md-3  px-4'>
+                        <div className='col-sm-12 col-md-3  '>
                             <h5>Quick Links</h5>
                             <div className='row '>
                                 <ul className='col-6'>
@@ -27,7 +27,7 @@ function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-sm-12 col-md-8  px-4'>
+                        <div className='col-sm-12 col-md-8 '>
                             <h5>Jd Verticals</h5>
                             <div className='row '>
                                 <ul className='col-2'>
@@ -63,7 +63,15 @@ function Footer() {
                         </div>
 
                     </div>
-                    <div className='row'>
+   
+                   
+                </div>
+
+            </section>
+            <hr />
+            <section id='footer' className='pad'>
+                <div className='container-fluid'>
+                <div className='row'>
                         <div className='col-8 my-4'>
                             <p>Copyrights 2008-23.  All Rights Reserved. | Privacy | Terms | Infringement</p>
 
