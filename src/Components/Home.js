@@ -7,6 +7,7 @@ import Sharing_Links from './Sharing_Links';
 import BrandSlide from './BrandSlide';
 import Recent_activity from './Recent_activity';
 import ServicesIcon from './ServicesIcon';
+import GallerySection from './GallerySection';
   
 
 
@@ -14,6 +15,7 @@ function Home() {
   return (
     <div>
       <Header />
+      <GallerySection />
       <ServicesIcon />
       <Recent_activity />
       <BrandSlide />

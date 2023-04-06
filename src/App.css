@@ -246,3 +246,11 @@ font-weight: 600;
   border: 1px solid #ddd;
   border-radius: 15px;
 }
+.galleryBox{
+  width: 40%;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+.galleryBox span{
+  margin: 30px;
+}
