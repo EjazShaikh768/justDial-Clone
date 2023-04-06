@@ -8,6 +8,7 @@ import BrandSlide from './BrandSlide';
 import Recent_activity from './Recent_activity';
 import ServicesIcon from './ServicesIcon';
 import GallerySection from './GallerySection';
+import Serv_Icons from './Serv_Icons';
   
 
 
@@ -15,6 +16,7 @@ function Home() {
   return (
     <div>
       <Header />
+      <Serv_Icons />
       <GallerySection />
       <ServicesIcon />
       <Recent_activity />

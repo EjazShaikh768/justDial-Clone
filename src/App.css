@@ -202,6 +202,33 @@ font-weight: 600;
 .RecentActivity .startbox a {
   text-decoration: none;
 }
+
+.serviceIcon00 .msgbox a{
+ text-decoration: none;
+ font-size: 1.2em;
+}
+.serviceIcon00 .iconbox {
+  width: 7.5%;
+  height: 130px;
+  padding: 10px;
+  margin: 60px 30px 60px 0;
+}
+.serviceIcon00 .iconbox a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 640;
+}
+.serviceIcon00 .imgbox{
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 15px 10px;
+  width: 100%;
+  
+}
+.serviceIcon00 .imgbox img {
+  width: 50px;
+  height: 60px;
+}
 .serviceIcon{
   border: 1px solid #ddd;
   border-radius: 20px 20px 0 0;
