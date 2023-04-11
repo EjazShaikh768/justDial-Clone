@@ -9,6 +9,8 @@ import Recent_activity from './Recent_activity';
 import ServicesIcon from './ServicesIcon';
 import GallerySection from './GallerySection';
 import Serv_Icons from './Serv_Icons';
+import SliderSection from './SliderSection';
+import SearchPage from './SearchPage';
   
 
 
@@ -16,6 +18,8 @@ function Home() {
   return (
     <div>
       <Header />
+      <SearchPage />
+      <SliderSection />
       <Serv_Icons />
       <GallerySection />
       <ServicesIcon />

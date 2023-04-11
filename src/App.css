@@ -211,7 +211,7 @@ font-weight: 600;
   width: 7.5%;
   height: 130px;
   padding: 10px;
-  margin: 60px 30px 60px 0;
+  margin: 35px 30px 0 0;
 }
 .serviceIcon00 .iconbox a {
   text-decoration: none;
@@ -280,4 +280,294 @@ font-weight: 600;
 }
 .galleryBox span{
   margin: 30px;
+}
+.firstCard {
+  position: relative;
+  color: #fff;
+  height: 255px;
+}
+.firstCard img{
+  border-radius: 15px;
+  background-color: rgb(15, 125, 216);
+  height: 255px;
+}
+.firstCard .topText{
+ position: absolute;
+ top: 20px;
+ left: 25px;
+}
+.firstCard .topText span{
+  color:  #ddd;
+  line-height: 0;
+}
+.firstCard .topText h4{
+  font-weight: 750;
+}
+
+.secondCard {
+  position: relative;
+  color: #fff;
+  height: 255px;
+}
+.secondCard img{
+  border-radius: 15px;
+  background-color: rgb(15, 125, 216);
+  height: 255px;
+}
+.secondCard .topText{
+ position: absolute;
+ top: 20px;
+ left: 25px;
+}
+.secondCard .topText span{
+  color:  #ddd;
+}
+.secondCard .topText h4{
+  font-weight: 750;
+}
+
+
+.thirdCard {
+  position: relative;
+  color: #fff;
+  height: 255px;
+}
+.thirdCard img{
+  border-radius: 15px;
+  background-color: rgb(15, 125, 216);
+  height: 255px;
+}
+.thirdCard .topText{
+ position: absolute;
+ top: 20px;
+ left: 25px;
+}
+.thirdCard .topText span{
+  color:  #ddd;
+}
+.thirdCard .topText h4{
+  font-weight: 750;
+}
+
+
+.fourthCard {
+  position: relative;
+  color: #fff;
+  height: 255px;
+}
+.fourthCard img{
+  border-radius: 15px;
+  background-color: rgb(15, 125, 216);
+  height: 255px;
+}
+.fourthCard .topText{
+ position: absolute;
+ top: 20px;
+ left: 25px;
+}
+.fourthCard .topText span{
+  color:  #ddd;
+}
+.fourthCard .topText h4{
+  font-weight: 750;
+}
+
+
+.secondCard img{
+  background-color:#1d355d;
+  border-radius: 15px;
+}
+.thirdCard img{
+  background-color:#484a9d;
+  border-radius: 15px;
+}
+.fourthCard img{
+  background-color:#1b8146;
+  border-radius: 15px; 
+}
+.Carousel{
+  height: 255px;
+  border-radius: 15px;
+}
+.Carousel img{
+  height: 255px;
+  border-radius: 15px;
+}
+form {
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+}
+.pseudo-search1 {
+  display: inline;
+  border: 2px solid #ccc;
+  padding: 10px 15px;
+  transition: background-color 0.5 ease-in-out;
+  background-color: #ddd;
+}
+.pseudo-search1 input {
+  border: 0;
+  background-color: transparent;
+  width: 100%;
+}
+.pseudo-search1 input:focus {
+  outline: none;
+}
+
+.pseudo-search {
+  display: inline;
+  border: 2px solid #ccc;
+  padding: 10px 15px;
+  transition: background-color 0.5 ease-in-out;
+}
+  .pseudo-search input {
+    border: 0;
+    background-color: transparent;
+    width: 260px;
+  }
+  .pseudo-search input:focus {
+      outline: none;
+    }
+  
+  
+    .pseudo-search button, i {
+    cursor: pointer;
+    font-size: 1.4em;
+  }
+  .pseudo-search button{
+    margin-top: -15px;
+  }
+  select {
+    border: none;
+  }
+
+#searchPage h3{
+  font-weight: 750;
+}
+#searchPage aside{
+  color: blueviolet;
+  margin-left: 10px;
+}
+#searchPage span{
+  margin-left: 10px;
+}
+
+#searchPage h3 > span b {
+  font-weight: 750;
+}
+#searchPage h3 > span {
+  font-size:0px;
+  opacity:0;
+  margin-left:50px;
+  text-align: right;
+  /* position:relative; */
+  font-weight:300;   
+  /* box-shadow: 0px 60px 25px -20px rgba(0,0,0,0.5); */
+}
+
+#searchPage h3 > span:nth-child(1) {
+  animation: roll 5s linear infinite 0s;
+}
+#searchPage h3 > span:nth-child(2) {
+  animation: roll 5s linear infinite 1s;
+}
+#searchPage h3 > span:nth-child(3) {
+  animation: roll 5s linear infinite 2s;
+}
+#searchPage h3 > span:nth-child(4) {
+  animation: roll2 5s linear infinite 3s;
+}
+
+@keyframes roll {
+  0% {
+    font-size:0px;
+    opacity:0;
+    margin-left:-30px;
+    margin-top:0px;
+    transform: rotate(-25deg);
+  }
+  3% {
+    opacity:1;
+    transform: rotate(0deg);
+  }
+  5% {
+    font-size:inherit;
+    opacity:1;
+    margin-left:0px;
+    margin-top:0px;
+  }
+  20% {
+    font-size:inherit;
+    opacity:1;
+    margin-left:0px;
+    margin-top:0px;
+    transform: rotate(0deg);
+  }
+  27% {
+    font-size:0px;
+    opacity:0.5;
+    margin-left:20px;
+    margin-top:100px;
+  }
+  100% {
+    font-size:0px;
+    opacity:0;
+    margin-left:-30px;
+    margin-top:0px;
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes roll2 {
+  0% {
+    font-size:0px;
+    opacity:0;
+    margin-left:-30px;
+    margin-top:0px;
+    transform: rotate(-25deg);
+  }
+  3% {
+    opacity:1;
+    transform: rotate(0deg);
+  }
+  5% {
+    font-size:inherit;
+    opacity:1;
+    margin-left:0px;
+    margin-top:0px;
+  }
+  30% {
+    font-size:inherit;
+    opacity:1;
+    margin-left:0px;
+    margin-top:0px;
+    transform: rotate(0deg);
+  }
+  37% {
+    font-size:1500px;
+    opacity:0;
+    margin-left:-1000px;
+    margin-top:-800px;
+  }
+  100% {
+    font-size:0px;
+    opacity:0;
+    margin-left:-30px;
+    margin-top:0px;
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes bg {
+  0% {background: #ff0075;}
+  3% {background: #0094ff;}
+  20% {background: #0094ff;}
+  23% {background: #b200ff;}
+  40% {background: #b200ff;}
+  43% {background: #8BC34A;}
+  60% {background: #8BC34A;}
+  63% {background: #F44336;}
+  80% {background: #F44336;}
+  83% {background: #F44336;}
+  100% {background: #F44336;}
 }

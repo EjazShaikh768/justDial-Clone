@@ -19,6 +19,7 @@ import si16 from './Images/si00_16.svg';
 import si17 from './Images/si00_17.svg';
 import si18 from './Images/si00_18.svg';
 import si19 from './Images/si00_00.svg';
+import si20 from './Images/si00_20.svg' 
 function Serv_Icons() {
   return (
     <div>
@@ -35,115 +36,115 @@ function Serv_Icons() {
                                            <div className='imgbox'>
                                             <img src={sioo}  alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Mobile</a>
+                                           <a href=''>Restaurants</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si01}  alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Electricity</a>
+                                           <a href=''>Hotels</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si02}  alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>DTH</a>
-                                        </div>
-                                        <div className=' iconbox text-center'>
-                                           <div className='imgbox'>
-                                            <img src={si03}  alt="" className="img-fluid" ></img>
-                                           </div>
-                                           <a href=''>Water</a>
+                                           <a href=''>Automobile</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si19}  alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Gas</a>
+                                           <a href=''>Home Decor</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
-                                            <img src={si05} alt="" className="img-fluid" ></img>
+                                            <img src={si05}  alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Insurance</a>
+                                           <a href=''>Education</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si06} alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Insurance</a>
+                                           <a href=''>Rent&Hire</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si07} alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Insurance</a>
+                                           <a href=''>Hospital</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si08} alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Insurance</a>
+                                           <a href=''>Contractor</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si09} alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Insurance</a>
+                                           <a href=''>Pet Shop</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si10} alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Insurance</a>
+                                           <a href=''>PG Hostels</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si11} alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Insurance</a>
+                                           <a href=''>Estate Agent</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si12} alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Insurance</a>
+                                           <a href=''>Dentist</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si13} alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Insurance</a>
+                                           <a href=''>GYM</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si14} alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Insurance</a>
+                                           <a href=''>Consultants</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si15} alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Insurance</a>
+                                           <a href=''>Event Organisers</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si16} alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Insurance</a>
-                                        </div>
-                                        <div className=' iconbox text-center'>
-                                           <div className='imgbox'>
-                                            <img src={si17} alt="" className="img-fluid" ></img>
-                                           </div>
-                                           <a href=''>Insurance</a>
+                                           <a href=''>Driving School</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
                                             <img src={si18} alt="" className="img-fluid" ></img>
                                            </div>
-                                           <a href=''>Insurance</a>
+                                           <a href=''>Packers & Movers</a>
+                                        </div>
+                                        <div className=' iconbox text-center'>
+                                           <div className='imgbox'>
+                                            <img src={si17} alt="" className="img-fluid" ></img>
+                                           </div>
+                                           <a href=''>Courier Service</a>
+                                        </div>
+                                        <div className=' iconbox text-center'>
+                                           <div className='imgbox'>
+                                            <img src={si20} alt="" className="img-fluid" ></img>
+                                           </div>
+                                           <a href=''>Travel</a>
                                         </div>
                                         <div className=' iconbox text-center'>
                                            <div className='imgbox'>
