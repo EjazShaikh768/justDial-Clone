@@ -119,19 +119,25 @@ font-weight: 600;
   box-shadow: 2px 2px 0 0 #ddd;
   border-radius: 15px;
 }
-#brandslide .btn{
+#brandslide .swiper-button-prev{
   z-index: 2;
   position: absolute;
-  top: 43%;
+  top: 52%;
   background-color: #ddd;
   border-radius: 0 10px 10px 0;
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 1.2em;
 }
-#brandslide .btn1{
+#brandslide .swiper-button-next{
   z-index: 2;
-  top: 43%;
+  top: 52%;
   right: 10px;
   background-color: #ddd;
   border-radius:  10px 0  0 10px;
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 1.2em;
 }
 #RecentActivity .col {
   width: 31%;
